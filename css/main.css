@@ -22,16 +22,17 @@
 /*header style*/
 .header{
  background-image: url('../images/Mom4.jpg');
+ /*background: rgb(169, 242, 205);*/
  background-attachment: fixed;
  background-size: cover;
  background-position: center;
 }
 
-.overlay{
+/*.overlay{
  position: absolute;
  min-height: 100%;
  min-width: 100%;
  left: 0;
  top: 0;
  background: rgba(244, 244, 244, 0.79);
-}
+}*/
