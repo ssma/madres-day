@@ -35,14 +35,30 @@
  position: relative;
 }
 
-#title{
+#home-title{
  font-family: 'Gloria Hallelujah';
  color: #d3ede0;
 }
 
-#title-subtext{
+#home-title-subtext{
  font-family: 'Lobster';
  color: #d3ede0;
+}
+
+#sean-container{
+ background: #b9e5c5
+}
+
+#sean-text{
+ color: #183d22;
+}
+
+#sarah-container{
+ background: #b9e5dc;
+}
+
+#sarah-text{
+ color: #226054;
 }
 
 /*.overflow-hidden {
