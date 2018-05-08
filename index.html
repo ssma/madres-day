@@ -11,7 +11,7 @@
 <!--===============================================================================================-->
 
 	<nav class="navbar navbar-expand-lg fixed-top ">
-		<a class="navbar-brand" href="#">Home</a>
+		<a id="home-tab" class="navbar-brand" href="#">Home</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    	<span class="navbar-toggler-icon"></span>
 	   	</button>
@@ -19,13 +19,13 @@
 		<div class="collapse navbar-collapse " id="navbarSupportedContent">
     		<ul class="navbar-nav mr-4">
        			<li class="nav-item">
-         			<a class="nav-link" href="#">From Sean</a>
+         			<a id="sean-tab" class="nav-link" href="#">From Sean</a>
        			</li>
        			<li class="nav-item">
-         			<a class="nav-link " href="#">From Sarah</a>
+         			<a id="sarah-tab" class="nav-link " href="#">From Sarah</a>
       			</li>
        			<li class="nav-item">
-        			<a class="nav-link " href="#">From Photos</a>
+        			<a id="photos-tab" class="nav-link " href="#">Photos</a>
        			</li>
      		</ul>
      
@@ -34,9 +34,30 @@
 
 	<header class = "header">
 	</header>
-<!-- 		<div class = "headerclass">
-			<h1> Happy Mother's Day! </h1>
-		</div> -->
 
+	<!-- Main body -->
+	<div class="container">
+		<!-- Contents for "Home" -->
+		<div id="home-container">
+			
+		</div>
+		<!-- Contents for "Sarah" -->
+		<div id="sarah-container">
+		</div>
+		<!-- Contents for "Sean" -->
+		<div id="sean-container">
+		</div>
+		<!-- Contents for "Photos" -->
+		<div id="photo-container">
+		</div>
+	</div>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/popper.min.js" />
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- The main Javascript -->
 	<script type="text/javascript" src='js/main.js'></script>
 </html>

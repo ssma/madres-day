@@ -21,8 +21,8 @@
 
 /*header style*/
 .header{
- background-image: url('../images/Mom4.jpg');
- /*background: rgb(169, 242, 205);*/
+ /*background-image: url('../images/Mom4.jpg');*/
+ background: rgb(169, 242, 205);
  background-attachment: fixed;
  background-size: cover;
  background-position: center;
