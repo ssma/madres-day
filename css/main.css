@@ -29,13 +29,12 @@
 }
 
 .home-section{
- height: 90vh;
+ min-height: 85vh;
  padding: 1em;
 }
 
 #home-container{
  background: #45a576;
- margin: 4em 0;
  position: relative;
 }
 
