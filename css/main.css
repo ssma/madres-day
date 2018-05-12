@@ -28,6 +28,10 @@
  background: rgba(244, 244, 244, 0.79);
 }
 
+.section-img{
+ max-width: 45vw;
+}
+
 .home-section{
  min-height: 85vh;
  padding: 1em;
