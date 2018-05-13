@@ -11,7 +11,7 @@ $(document).ready(function(){
 		$('html, body').animate({scrollTop: $('#sarah-container').offset().top}, 500)
 	});
 
-	$('#photo-tab').click(function(){
+	$('#photos-tab').click(function(){
 		$('html, body').animate({scrollTop: $('#photo-container').offset().top}, 500)
 	});
 });
