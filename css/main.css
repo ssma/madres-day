@@ -29,11 +29,15 @@
 }
 
 .section-img{
- max-width: 45vw;
+	max-width: 100%;
+	width: auto;
+	height: auto;
 }
 
 .photo-section-img{
-	max-width: 30vw;
+	max-width: 100%;
+	width: auto;
+	height: auto;
 }
 
 .home-section{
