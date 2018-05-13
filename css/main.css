@@ -33,7 +33,7 @@
 }
 
 .home-section{
- min-height: 85vh;
+ min-height: 90vh;
  padding: 1em;
 }
 
@@ -67,6 +67,8 @@
 #sarah-text{
  color: #226054;
 }
+
+
 
 /*.overflow-hidden {
     overflow: hidden;
